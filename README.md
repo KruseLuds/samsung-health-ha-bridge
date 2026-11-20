@@ -1,6 +1,6 @@
 # Samsung Health Bridge
 
-**ANDROID ONLY | PROPVEN AS WORKING BUT ONLY FOR SOFTWARE DEVELOPMENT AND TESTING ONLY**
+**ANDROID ONLY | PROVEN AS WORKING BUT ONLY FOR SOFTWARE DEVELOPMENT AND TESTING ONLY**
 
 Samsung Health Bridge is an independent development project that reads permitted Samsung Health records on an Android phone and sends them over authenticated HTTPS to Home Assistant (HA). It complements the existing Home Assistant Companion App and Google Health Connect rather than replacing them. HA Is normally unable to show all health related records from the Galaxy Watch for a variety of complex reasons as discussed below and this integration resolves 99% of that issue by acting as a bridge between the Android Samsung Health app and HA.
 
