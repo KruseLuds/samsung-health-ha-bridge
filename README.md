@@ -43,7 +43,7 @@ Open the [Android Studio source project](https://github.com/KruseLuds/samsung-he
 
 ### Step 4. Configure every control on the Android development screen (v0.3.3)
 
-The below is an actual screen shot on an android phone of SamsungHealthReporter app on the android phone, with some details anonymized. The ha.example.test https url shown is to be replaced with the external URL of your HA instance, and the token is already there but hidden once saved. Sometimes there are no records to retrieve but success or failure in the retrieval is always shown, with full details of the type and number of records shown of each type visible when you scroll further down on that screen.
+The below is an actual screen shot on an android phone of the SamsungHealthReporter app (with some details anonymized). The ha.example.test https url shown is to be replaced with the external URL of your HA instance, and the token is already there but hidden once saved. Sometimes there are no records to retrieve but success or failure in the retrieval is always shown, with full details of the type and number of records shown of each type visible when you scroll further down on that screen.
 
 ![SamsungHealthReporter v0.3.3 developer interface with the private Home Assistant address and operational timestamps redacted](docs/images/android-development-screen-v0.3.3-redacted.png)
 
