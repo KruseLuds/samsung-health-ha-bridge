@@ -1,0 +1,50 @@
+# Samsung proprietary SDK and any compiled Android artifacts
+*.aar
+*.apk
+*.aab
+*.jar
+# The only permitted JAR is Gradle's verified 9.5.1 bootstrap (not Samsung SDK).
+!android/SamsungHealthReporter/gradle/wrapper/gradle-wrapper.jar
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+# Local secrets / Android machine-specific paths
+local.properties
+key.properties
+secrets.properties
+google-services.json
+*.env
+.env*
+# Build/runtime outputs and caches
+.gradle/
+.idea/
+.kotlin/
+**/build/
+**/libs/
+**/outputs/
+**/debug/
+**/reports/
+**/__pycache__/
+*.pyc
+*.log
+# Runtime/personal health data
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+*.csv
+*.tsv
+*.zip
+*.7z
+*.bak
+*.backup
+# Prior local patches and backups
+bridge_v*_backup*/
+bridge_patch_backup*/
+*_token*
+*_credentials*
+# The single source-only guard workflow is intentionally tracked.
+# It never downloads Samsung SDKs or builds/distributes applications.

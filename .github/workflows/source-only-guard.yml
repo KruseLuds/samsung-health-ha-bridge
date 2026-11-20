@@ -1,0 +1,20 @@
+# Source-only policy verification. No Android builds, SDK downloads, or APK uploads.
+name: Source-only publication guard
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scan-source-and-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source with complete reachable history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Check tracked files and Git history for proprietary packages
+        run: python3 tools/verify_source_only.py --repository . --history

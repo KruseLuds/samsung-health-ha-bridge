@@ -1,0 +1,4 @@
+<resources>
+    <!-- Compose draws the UI; the window theme only sets the system bars and the launch background. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

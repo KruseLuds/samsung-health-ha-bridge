@@ -1,0 +1,4 @@
+#!/bin/sh
+# Opt-in local safety net: git config core.hooksPath .githooks
+# The script checks staged Git blobs (not ignored SDK files used for local builds).
+exec python3 tools/verify_source_only.py --repository .
