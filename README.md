@@ -88,7 +88,7 @@ Check the latest app result and diagnostics, the Home Assistant `sensor.samsung_
 
 ## What is Google Health Connect?
 
-**Google Health Connect is Android's on-device health-data sharing system.** It is completelyt independent of Samsung. Its purpose is to let different health and fitness apps exchange compatible health information through a common set of standard record types, with the developer's permission. It does **not** measure health data itself. It does not automatically contain everything stored by Samsung Health, and it is not a cloud service.
+**Google Health Connect is Android's on-device health-data sharing system.** It is completely independent of Samsung. Its purpose is to let different health and fitness apps exchange compatible health information through a common set of standard record types, with the developer's permission. It does **not** measure health data itself. It does not automatically contain everything stored by Samsung Health, and it is not a cloud service.
 
 **Where it lives:** Health Connect resides **on the Android phone only** in this setup, not on the Galaxy Watch or the Home Assistant server. On Android 14 and later, it is an Android system component managed from the phone's Settings. On supported older Android versions, it may be a separately installed Google app. Samsung Health can write selected (only selected) records into it. The **Android Home Assistant Companion App**, when granted Health Connect permissions and configured to expose relevant sensors, can read its supported records and send them to Home Assistant.
 
